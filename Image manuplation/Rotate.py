@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("strawberryPIC.jpg",-1)
+img = cv2.imread("strawberryPIC.jpg" , -1)
 if img is not None:
     print("image loaded")
     cv2.imshow("image",img)

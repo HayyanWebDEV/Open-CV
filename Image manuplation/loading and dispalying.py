@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('strawberryPIC.jpg',0)
+image = cv2.imread('strawberryPIC.jpg' , 0)
 
 if image is not None:
     cv2.imshow('Strawberry',image)

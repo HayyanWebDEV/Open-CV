@@ -10,7 +10,7 @@ if address is not None:
         cv2.imshow(imageName,gray)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
-        cv2.imwrite("Newimage.jpg",gray)
+        cv2.imwrite("Newimage.jpg" , gray)
         print("image saved")
     else:
         print("image not saved and showed")

@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread('strawberryPIC.jpg',-1)
+image = cv2.imread('strawberryPIC.jpg' , -1)
 if image is not None:
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     cv2.imshow("image",gray)

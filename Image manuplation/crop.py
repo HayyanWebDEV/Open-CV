@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("strawberryPIC.jpg",-1)
+image = cv2.imread("strawberryPIC.jpg" , -1)
 if image is not None:
     print("image loaded")
     crop = image[0:250,0:500]
